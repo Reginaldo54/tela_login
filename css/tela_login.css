@@ -81,8 +81,8 @@ main
 {
     
     height: clamp(41px, 10vw, 71px);
-    width: clamp(370px, 60vw, 1000px);
-    padding: clamp(7%, 3vw, 10%);
+    width: clamp(370px, 60vw, 900px);
+    padding: clamp(30px, 5vw, 40px);
     border-radius: 4px;
     text-align: center;
 
@@ -122,13 +122,31 @@ a:hover
     opacity: 50%;
 }
 
-
+/*Icones*/
 #login #iconeUsuario{
-   position: absolute;
-   left: 5%;
-   top: 18%;
-   width: clamp(5%, 5vw, 6%);
-}
+    position: absolute;
+    left: 5%;
+    top: clamp(10px, 10vw, 20px);
+    width: clamp(7%, 5vw, 6%);
+ }
+
+#senha #iconeSenha{
+    position: absolute;
+    left: 5%;
+    top: clamp(10px, 10vw, 15px);
+    width: 6%;
+  }
+  
+  
+  #senha #iconeSair
+  {
+      position: absolute;
+      right: 5%;
+      top: clamp(10px, 10vw, 18px);
+      width: 7%;
+  }
+  
+
 
 /*Input senha*/
 
@@ -152,22 +170,6 @@ a:hover
 }
 
 
-
-#senha #iconeSenha{
-  position: absolute;
-  left: 5%;
-  top: 18%;
-  width: 5%;
-}
-
-
-#senha #iconeSair
-{
-    position: absolute;
-    right: 5%;
-    top: 20%;
-    width: 6%;
-}
 
 /*Opção manter conectado ou não*/
 
