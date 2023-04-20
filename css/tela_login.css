@@ -14,6 +14,7 @@ body
     text-align: center;
     margin-left: -10%;
     border: 1px solid rgb(15, 15, 15);
+    min-width: 375px;
     height: clamp(800px, 80vw, 1000px);
 }
 
@@ -45,7 +46,7 @@ main
 #introducao h2
 {
 
-    font-size: clamp(36px, 5vw, 48px);
+    font-size: clamp(24px, 5vw, 48px);
     font-weight: 700;
  
    
@@ -55,7 +56,7 @@ main
 {
     margin-top: 15px;
     color: #00000080;
-    font-size: clamp(24px, 2.5vw, 24px);
+    font-size: clamp(12px, 5vw, 24px);
     font-family: Poppins;
     font-weight: 500;
 
@@ -75,7 +76,7 @@ main
 .esqueceu
 {
     
-    font-size: clamp(22px, 3vw, 24px);
+    font-size: clamp(11px, 5vw, 24px);
     font-weight: 700;
     text-align: center;
     margin-top: 2.5%;
@@ -84,7 +85,7 @@ main
 .entrada
 {
     height: clamp(41px, 9vw, 71px);
-    width: clamp(320px, 80vw, 900px);
+    width: clamp(291px, 60vw, 900px);
     border-radius: 4px;
     text-align: center;
 
@@ -92,16 +93,17 @@ main
     -webkit-box-shadow: 0px 13px 22px -18px rgba(0,0,0,0.75);
     -moz-box-shadow: 0px 13px 22px -18px rgba(0,0,0,0.75);
     
-    font-size: clamp(12px, 3vw, 24px);
-    padding: clamp(5%, 1.5vw, 12%);
-    
+    font-size: clamp(12px, 5vw, 24px);
+    padding-left: 11%;
+    padding-right:12% ;
+
     
   
 }
 
 ::placeholder
 {
-    font-size: clamp(12px, 3vw, 32px);
+    font-size: clamp(12px, 5vw, 32px);
     
 }
 
@@ -251,7 +253,7 @@ a:hover
 {
     
     font-weight: 600;
-    font-size: clamp(12px, 3vw, 31px);
+    font-size: clamp(12px, 5vw, 31px);
     
 }
 
@@ -273,7 +275,7 @@ form button
     
 
     border-radius: 6px;
-    font-size: clamp(12px, 4vw, 32px);
+    font-size: clamp(12px, 5vw, 32px);
 
 }
 
