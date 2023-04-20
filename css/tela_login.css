@@ -13,7 +13,7 @@ body
 {
     text-align: center;
     margin-left: -10%;
-    min-width: 375px;
+    min-width: 300px;
     height: clamp(800px, 80vw, 1000px);
 }
 
@@ -80,7 +80,8 @@ main
 
 .entrada
 {
-    height: clamp(41px, 9vw, 71px);
+    
+    height: clamp(41px, 10vw, 71px);
     width: clamp(325px, 60vw, 900px);
     border-radius: 4px;
     text-align: center;
@@ -129,7 +130,7 @@ a:hover
 #login #iconeUsuario{
    position: absolute;
    left: 5%;
-   top: 14px;
+   top: 14%;
    width: clamp(5%, 5vw, 6%);
 }
 
@@ -159,7 +160,7 @@ a:hover
 #senha #iconeSenha{
   position: absolute;
   left: 5%;
-  top: 10px;
+  top: 12%;
   width: 5%;
 }
 
@@ -168,7 +169,7 @@ a:hover
 {
     position: absolute;
     right: 5%;
-    top: 15px;
+    top: 15%;
     width: 6%;
 }
 
