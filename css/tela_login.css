@@ -45,7 +45,7 @@ main
 #introducao h2
 {
 
-    font-size: clamp(24px, 5vw, 48px);
+    font-size: clamp(36px, 5vw, 48px);
     font-weight: 700;
  
    
@@ -55,7 +55,7 @@ main
 {
     margin-top: 15px;
     color: #00000080;
-    font-size: clamp(12px, 2.5vw, 24px);
+    font-size: clamp(24px, 2.5vw, 24px);
     font-family: Poppins;
     font-weight: 500;
 
@@ -75,7 +75,7 @@ main
 .esqueceu
 {
     
-    font-size: clamp(11px, 3vw, 24px);
+    font-size: clamp(22px, 3vw, 24px);
     font-weight: 700;
     text-align: center;
     margin-top: 2.5%;
@@ -84,7 +84,7 @@ main
 .entrada
 {
     height: clamp(41px, 9vw, 71px);
-    width: clamp(291px, 60vw, 900px);
+    width: clamp(320px, 80vw, 900px);
     border-radius: 4px;
     text-align: center;
 
@@ -93,9 +93,8 @@ main
     -moz-box-shadow: 0px 13px 22px -18px rgba(0,0,0,0.75);
     
     font-size: clamp(12px, 3vw, 24px);
-    padding-left: 11%;
-    padding-right:12% ;
-
+    padding: clamp(5%, 1.5vw, 12%);
+    
     
   
 }
